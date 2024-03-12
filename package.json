@@ -1,0 +1,28 @@
+{
+  "name": "design-forum",
+  "version": "0.0.1",
+  "description": "A VuePress project",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@vuepress/plugin-register-components": "^1.9.10",
+    "@vuepress/plugin-search": "^1.9.10",
+    "@vuepress/theme-default": "2.0.0-rc.18",
+    "@vuepress/utils": "2.0.0-rc.2",
+    "vue": "^3.4.0",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-plugin-giscus-comment": "^2.0.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-oh-my-live2d": "^0.8.2",
+    "vuepress-plugin-zenlive2d-cat": "^1.1.1"
+  }
+}
